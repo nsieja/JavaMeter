@@ -12,7 +12,7 @@ function JavaMeter() {
 
     // Prepare the data to send
     const data = {
-      caffeine_amount: parseInt(caffeine), // Convert to integer
+      amount: parseInt(caffeine), // Convert to integer
       drink_time: parseInt(drinkTime),      // Convert to integer
       projection_time: parseInt(projectionTime) // Convert to integer
     };
