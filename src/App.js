@@ -2,7 +2,7 @@ import './App.css';
 
 import React, { useState } from 'react';
 
-function CaffeineCalculator() {
+function JavaMeter() {
   const [caffeine, setCaffeine] = useState(60);
   const [drinkTime, setDrinkTime] = useState(10);
   const [projectionTime, setProjectionTime] = useState(4);
@@ -33,3 +33,5 @@ function CaffeineCalculator() {
     </div>
   );
 }
+
+export default JavaMeter;
